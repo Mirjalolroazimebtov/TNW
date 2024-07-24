@@ -1,0 +1,410 @@
+@media(max-width:1390px) {
+  .imgtitle {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: start;
+  }
+}
+
+
+@media(max-width:1200px) {
+  .nav_logo img {
+    width: 145px;
+  }
+  .logo_title {
+    font-size: 17px;
+    line-height: 100%;
+    text-align: center;
+  }
+  .nav_list {
+    display: flex;
+    gap: 13px;
+    font-size: 17px;
+    line-height: 100%;
+    text-align: center;
+  }
+  .box {
+    gap: 25px;
+  }
+  .a_img {
+    width: 535px;
+  }
+  .a_title {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 23px;
+    line-height: 100%;
+  }
+  .a_title2 {
+    margin-top: 17px;
+    font-size: 21px;
+    line-height: 100%;
+  }
+  .a_text {
+    margin-top: 27px;
+    margin-bottom: 28px;
+    font-size: 17px;
+    line-height: 110%;
+  }
+}
+@media(max-width:1150px) {
+  .intro_bg {
+    height: 260px;
+  }
+  .a_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+  .a_title2 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .a_text {
+    margin-top: 25px;
+    margin-bottom: 26px;
+    font-size: 16px;
+  }
+}
+.f_logo {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.f_title {
+  font-size: 17px;
+  line-height: 100%;
+}
+.f_list {
+  font-size: 17px;
+  line-height: 100%;
+  gap: 13px;
+}
+
+
+@media(max-width:1100px) {
+  .nav_logo img {
+    width: 135px;
+  }
+  .logo_title {
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .nav_list {
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+  }
+  .intro_bg {
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .a_img {
+    width: 500px;
+  }
+
+  .a_title {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 19px;
+  }
+
+  .a_title2 {
+    margin-top: 13px;
+    font-size: 18px;
+  }
+
+  .a_text {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 125%;
+  }
+}
+
+
+@media(max-width:1000px) {
+  .card1,
+  .card2{
+   width: 320px;
+  }
+  .card3,
+  .card4{
+    width: 320px;
+  }
+  .card1 img,
+ .card3 img{
+  width: 320px;
+ 
+  }
+   .card2 img,
+   .card4 img{
+    width:320px;
+   }
+  }
+  .title{
+    font-size: 17px;
+    line-height: 100%;
+  }
+  .text{
+    font-size: 16px;
+    line-height: 110%;
+  }
+  .f_logo {
+    width: 130px;
+  }
+  .f_title {
+    font-size: 16px;
+  }
+  .f_list {
+    font-size: 16px;
+    gap: 11px;
+  }
+
+.a_img{width: 460px;}
+
+
+@media(max-width:900px) {
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box img {
+    width: 420px;
+  }
+  .a_text {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: scroll;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav_logo img {
+    width: 130px;
+  }
+  .logo_title {
+    font-size: 15px;
+  }
+  .nav_list {
+    display: flex;
+    gap: 11px;
+    font-size: 15px;
+  }
+  .card1,
+  .card2{
+   width: 300px;
+  }
+  .card3,
+  .card4{
+    width: 300px;
+  }
+ .card1 img,
+ .card3 img{
+  width: 300px;
+  }
+   .card2 img,
+   .card4 img{
+    width:300px;
+   }
+  }
+  .title{
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .text{
+    font-size: 15px;
+    line-height: 110%;
+    margin-bottom: 20px;
+  }
+
+
+
+@media(max-width:800px) {
+  .nav_list {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background: #ffffff;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    line-height: 120%;
+    padding: 10px ;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .a_title {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  .a_title2{font-size: 15px;}
+  .box img {
+    width: 370px;
+  }
+  .footer{
+    margin-top: 35px;
+  }
+  .f_list {
+    font-size: 15px;
+    line-height: 110%;
+    gap: 10px;
+  }
+  .nav_menu,
+  .nav_close {
+    display:block;
+  }
+}
+
+
+@media(max-width:700px){
+  .nav_logo img {
+    width: 125px;
+  }
+  .f_list {
+    flex-wrap: wrap;
+    gap: 11px;
+  }
+  .f_box{gap: 50px;
+  }
+  .f_logo{width: 120px;}
+  .f_title{font-size: 15px;}
+  .f_link{font-size: 15px;}
+  .footer{
+    margin-top: 35px;
+  }
+  .a_title{
+    margin-top: 20px;
+  margin-bottom: 20px;
+font-size: 16px;}
+.box img{width: 350px;}
+}
+
+
+@media(max-width:600px){
+  .nav_logo img {
+    width: 115px;
+  }
+  .logo_title{font-size: 14px;}
+  .card1,
+ .card2{
+  width: 280px;
+  height: 360px;
+ }
+ .card3,
+ .card4{
+   width: 280px;
+   height: 350px;
+ }
+  .card1 img,
+ .card3 img{
+  width: 280px;
+  }
+   .card2 img,
+   .card4 img{
+    width:280px;
+   }
+   .title{
+    font-size: 15px;
+    line-height: 110%;
+   }
+   .text{
+    font-size: 14px;
+  line-height: 125%;}
+  
+  .box img{width: 330px;}
+  .f_title{font-size: 14px;
+  line-height: 100%;}
+  .f_link{font-size: 14px;}
+  .f_logo{width: 115px;}
+.tt1,
+.tt3 {
+    padding: 12px 12px 7px 10px;
+}
+.tt2,
+.tt4 {
+    padding: 12px 12px 7px 10px;
+}
+}
+
+
+
+@media(max-width:500px){
+  .nav_logo img {
+    width: 110px;
+  }
+  .card1,
+ .card2{
+  width: 260px;
+  height: 315px;
+ }
+ .card3,
+ .card4{
+   width: 260px;
+   height: 315px;
+ }
+  .card1 img,
+ .card3 img{
+  width: 260px;
+  }
+   .card2 img,
+   .card4 img{
+    width:260px;
+   }
+ .tt1,
+.tt3 {
+    padding: 9px 8px 6px 8px;
+}
+.tt2,
+.tt4 {
+  padding: 9px 8px 6px 8px;
+}
+.text{
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: scroll;
+ 
+}
+.box{gap: 20px;}
+  .box img{width: 300px;}
+  .a_box{padding: 8px ;}
+ .a_title2{line-height: 110%;}
+  .f_logo{width: 110px;}
+}
+
+
+@media(max-width:450px){
+  .nav_logo img {
+    width: 90px;
+  }
+  .card1,
+ .card2{
+  width: 250px;
+  height: 305px;
+ }
+ .card3,
+ .card4{
+   width: 250px;
+   height: 305px;
+ }
+  .card1 img,
+ .card3 img{
+  width: 250px;
+  }
+   .card2 img,
+   .card4 img{
+    width:250px;
+   }
+   .box img{width: 270px;}
+   .f_logo img{width: 90px;}
+   .f_title{}
+  .box{gap: 15px;}
+  .a_title{margin-top: 17px;
+  margin-bottom: 17px;}
+}
