@@ -49,9 +49,7 @@
   }
 }
 @media(max-width:1150px) {
-  .intro_bg {
-    height: 260px;
-  }
+  
   .a_title {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -98,8 +96,7 @@
     font-size: 16px;
   }
   .intro_bg {
-    height: 250px;
-    object-fit: contain;
+    object-fit:cover;
     width: 100%;
   }
 
@@ -268,13 +265,17 @@
   }
   .f_list {
     flex-wrap: wrap;
+    justify-content: center;
     gap: 11px;
+    text-align: center;
   }
-  .f_box{gap: 50px;
+  .f_box{gap: 15px;
+    flex-direction: column;
   }
   .f_logo{width: 120px;}
   .f_title{font-size: 15px;}
-  .f_link{font-size: 15px;}
+  .f_link{font-size: 15px;
+ }
   .footer{
     margin-top: 35px;
   }
